@@ -64,9 +64,7 @@ $$
 
 **5. Final KDE Estimate:**
 
-$$
-\hat{f}_h(x) = \frac{1}{\sum w_i \cdot h} \sum_{i=1}^{n} w_i \cdot K\left( \frac{x - x_i}{h} \right)
-$$
+$$\hat{f}_h(x) = \frac{1}{\sum w_i \cdot h} \sum_{i=1}^{n} w_i \cdot K\left( \frac{x - x_i}{h} \right)$$
 
 </details>
 
