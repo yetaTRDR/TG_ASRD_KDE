@@ -1,0 +1,55 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.log
+
+# === Virtual environments ===
+.env
+.venv
+venv/
+ENV/
+env/
+*.env
+
+# === Jupyter Notebook ===
+.ipynb_checkpoints
+*.nbconvert.ipynb
+
+# === VSCode / PyCharm ===
+.vscode/
+.idea/
+
+# === OS generated files ===
+.DS_Store
+Thumbs.db
+
+# === Data science files (optional) ===
+# Descomenta si NO quieres versionar datos grandes
+# *.csv
+# *.tsv
+# *.h5
+# *.parquet
+# *.feather
+# *.xlsx
+
+# === Logs and outputs ===
+*.out
+*.tmp
+*.bak
+
+# === matplotlib cache ===
+.matplotlib/
+
+# === Pipenv and Poetry ===
+Pipfile.lock
+poetry.lock
+aproach.md
+
